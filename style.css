@@ -1,0 +1,13 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+header {
+    text-align: center;
+}
+#comic {
+    margin: auto;
+    width: 80%;
+}
+#comic img {
+    max-width: 100%;
+}
