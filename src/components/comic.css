@@ -1,0 +1,33 @@
+.comic {
+    padding: 2rem;
+}
+.comic__scroller {
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.comic__img {
+    height: 40vh;
+}
+.comic__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .comic {
+        margin: auto;
+        width: 80%;
+    }
+    .comic__scroller {
+        overflow: hidden;
+        width: 100%;
+    }
+    .comic__img {
+        height: auto;
+        max-width: 100%;
+    }
+    .comic__title {
+        text-align: left;
+    }
+}
